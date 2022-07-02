@@ -1,30 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Prints combination of numbers
- *
- * Return: Always (Success)
+ *main - prints alphabets in lowercase and then in uppercase
+ *followed by new line
+ *Return: 0 if (successful)
  */
 int main(void)
 {
-	int c, i;
+	int ch;
 
-	for (c = '0'; c <= '9'; c++)
-	{
-		for (i = '0'; i <= '9'; i++)
-		{
-			if (c < i)
-			{
-				putchar(c);
-				putchar(i);
-				if (c != '8' || (c == '8' && i != '9'))
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-		}
-	}	
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		putchar(ch);
 	putchar('\n');
 	return (0);
 }
