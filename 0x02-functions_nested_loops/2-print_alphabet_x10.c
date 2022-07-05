@@ -14,5 +14,5 @@ for (X = 0; X < 10; X++)
 	{
 		_putchar(j);
 	}
-	_puutchar('\n');
+	_putchar('\n');
 }
