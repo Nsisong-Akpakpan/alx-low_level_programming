@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * _strlen - length of a string
  * @s: input char
@@ -18,10 +18,10 @@ int _strlen(char *s)
 }
 
 /**
- * argstostr - a function that concatenates all the arguments of your program
- * @ac: count of args passed to the function
- * @av:array of arguments
- * Return: pointer to the new string
+ * argstostr - concat
+ * @ac: count
+ * @av: vector
+ * Return: string
  */
 char *argstostr(int ac, char **av)
 {
