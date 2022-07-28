@@ -1,6 +1,5 @@
 #include "main.h"
-#include <stdio.h>
-#include <stlib.h>
+#include <stdlib.h>
 
 /**
  * malloc_checked - allocate memory for b
@@ -9,11 +8,10 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	void *pointer = malloc(b);
+	void *mem = malloc(b);
 
-	if (pointer == NULL)
-	{
+	if (mem == NULL)
 		exit(98);
-	}
-	return (pointer);
+
+	return (mem);
 }
