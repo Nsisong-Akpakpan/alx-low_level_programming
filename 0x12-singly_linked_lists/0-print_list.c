@@ -27,5 +27,4 @@ store = store->next;
 num++;
 }
 return (num);
-
 }
