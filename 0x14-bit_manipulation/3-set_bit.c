@@ -1,5 +1,5 @@
 #include "main.h"
-#include "main.h"
+#include <stddef.h>
 
 /**
  * set_bit - sets a bit at a position to 1
